@@ -811,4 +811,4 @@
 
 # 许可证
 
-本项目的代码基于 AP 协议，其余文件基于共享。
+本项目的代码使用[Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)进行许可，其余文件属于公共领域（public domain），转载使用时注明出处即可:)。
