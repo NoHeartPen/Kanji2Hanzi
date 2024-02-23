@@ -1,24 +1,34 @@
+"""基于正则提取转换关系"""
+
 import re
 
+RULE_DICT_J2C = {}
+
+# 第一个分组是简体汉字，第二个分组是日文漢字
+REG = re.compile(r"(?P<hanzi>\w{1})\t(?P<kanji>\w{1})")
 
 # 加载转换规则
 with open("rule.txt", "r", encoding="utf-8") as File:
-    RuleText = File.read()
-    # 第一个分组是简体，第二个分组是日语
-    Reg = re.compile(r"(?P<Hanzi>\w{1})\t(?P<Kanji>\w{1})")
-    global J2CRuleDict
-    J2CRuleDict = {}
-    for iter in Reg.finditer(RuleText):
-        J2CRuleDict[iter.group("Kanji")] = iter.group(
-            "Hanzi")  # 漢字到汉字的转换规则是一一对应
+    RULE_TEXT = File.read()
+    for iter_ in REG.finditer(RULE_TEXT):
+        # 漢字到汉字的转换规则是一一对应
+        RULE_DICT_J2C[iter_.group("kanji")] = iter_.group("hanzi")
 
 
-def ConvertJ2C(InputText):  # 漢字转汉字
-    OutputTextList = []  # 储存
-    for item in InputText:
-        OutputTextList.append(J2CRuleDict.get(item, item))
-    OutputText = "".join(OutputTextList)
-    return OutputText
+def convert_j2c(input_text: str) -> str:
+    """将日文漢字转为简体汉字
+
+    Args:
+        input_text (_str_): 输入的字符串
+
+    Returns:
+        _str_: 转换后的汉字
+    """
+    output_text_list = []
+    for item in input_text:
+        output_text_list.append(RULE_DICT_J2C.get(item, item))
+    output_text = "".join(output_text_list)
+    return output_text
 
 
-print(ConvertJ2C("葛飾北斎"))
+print(convert_j2c("葛飾北斎"))
