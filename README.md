@@ -38,8 +38,8 @@
 
 ### mdx 文件
 
-123 网盘：https://www.123pan.com/s/iGz0Vv-umdVh
-GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
+123 网盘：<https://www.123pan.com/s/iGz0Vv-umdVh>
+GitHub：<https://github.com/NoHeartPen/Kanji2Hanzi/releases>
 
 本项目的 mdx 文件的词条来自：
 
@@ -64,7 +64,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 
 注意：除了修改 aff 文件，还要向 dic 文件中添加正确的日语汉字词条才能正常使用。
 
-ƒ# 简日汉字对照表
+## 简日汉字对照表
 
 截止 2023 年 1 月 27 日，共计 2355 个汉/漢字对应关系：
 
@@ -105,6 +105,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 亏 虧
 云 曇
 云 雲
+亘 亙  
 亚 亜
 亚 亞
 产 産
@@ -321,6 +322,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 啧 嘖
 啬 嗇
 啭 囀
+啮 ​齧
 啯 嘓
 啰 囉
 啴 嘽
@@ -697,6 +699,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 柠 檸
 查 査
 柽 檉
+栅 柵
 标 標
 栈 桟
 栈 棧
@@ -733,6 +736,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 榇 櫬
 榈 櫚
 榉 欅
+榨 搾
 槚 檟
 槛 檻
 槠 櫧
@@ -954,6 +958,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 痖 瘂
 痨 癆
 痫 癇
+痹 痺
 瘅 癉
 瘆 瘮
 瘗 瘞
@@ -998,6 +1003,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 碍 礙
 碎 砕
 碛 磧
+碱 鹸  
 磐 盤
 礼 禮
 祃 禡
@@ -1042,6 +1048,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 筜 簹
 筹 籌
 筼 篔
+签 籤
 筿 篠
 简 簡
 箓 籙
@@ -2328,6 +2335,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 鸥 鷗
 鸧 鶬
 鸨 鴇
+鸩 鳩
 鸪 鴣
 鸫 鶇
 鸬 鸕
@@ -2428,9 +2436,9 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 
 ## 反馈
 
-欢迎通过 issue 进行补充，或者到项目发布的论坛 https://forum.freemdict.com/t/topic/16260/23 参与讨论:)
+欢迎通过 issue 进行补充，或者到项目发布的论坛 <https://forum.freemdict.com/t/topic/16260/23> 参与讨论:)
 
-如果你愿意提交 PR，提交前最好运行一下[DeleteDuplicate.py](test\DeleteDuplicate.py)。
+如果你愿意提交 PR，提交前最好运行一下[delete_duplicate.py.py](test/delete_duplicate.py)。
 
 ## 鸣谢
 
@@ -2472,6 +2480,16 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 - 厌厭
 - 汇彙
 - 艳艶
+- 帐帳
+- 栅柵
+- 啮齧
+- 签籤
+- 丝糸
+- 痹痺
+- 碱鹸
+- 亘亙
+- 榨搾
+- 鸩鳩
 
 ## 许可证
 
