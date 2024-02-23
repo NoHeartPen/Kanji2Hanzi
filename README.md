@@ -829,7 +829,7 @@ GitHub：https://github.com/NoHeartPen/Kanji2Hanzi/releases
 渍 漬
 渐 漸
 渑 澠
-渔 漁 w
+渔 漁
 渖 瀋
 渗 滲
 渴 渇
