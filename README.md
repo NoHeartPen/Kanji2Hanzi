@@ -66,7 +66,7 @@ GitHub：<https://github.com/NoHeartPen/Kanji2Hanzi/releases>
 
 ## 简日汉字对照表
 
-截止 2023 年 1 月 27 日，共计 2355 个汉/漢字对应关系：
+截止 2024 年 2 月 24 日，共计 2363 个汉/漢字对应关系：
 
 ```md
 万 萬
@@ -322,7 +322,7 @@ GitHub：<https://github.com/NoHeartPen/Kanji2Hanzi/releases>
 啧 嘖
 啬 嗇
 啭 囀
-啮 ​齧
+啮 ​ 齧
 啯 嘓
 啰 囉
 啴 嘽
